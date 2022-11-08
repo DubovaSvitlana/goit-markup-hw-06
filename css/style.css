@@ -638,10 +638,12 @@ textarea {
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 25px;
+  color: var(--title-text-color);
 }
 .form-list {
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 .form-item {
   margin-bottom: 10px;
@@ -672,6 +674,7 @@ textarea::placeholder {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-bottom: 30px;
 }
 .form-button {
   display: block;
@@ -725,12 +728,12 @@ textarea::placeholder {
 }
 .icon-form {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 12px;
   display: inline-block;
-  margin: 11px 12px;
+  margin: 12px 11px;
   transform: translate(-50%, -50%);
-  vertical-align: middle;
+  vertical-align: baseline;
 }
 .form-input:hover ~ .icon-form {
   fill: var(--accent-color);
